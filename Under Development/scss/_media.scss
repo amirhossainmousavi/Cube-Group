@@ -1,0 +1,20 @@
+@media(max-width:480px) {
+    section {
+        .main-container {
+            .container {
+                .text {
+                    p:nth-child(1) {
+                        font-size: 40px;
+                        font-family: revert;
+                        font-weight: bold;
+                    }
+                    p:nth-child(2) {
+                        font-size: 15px;
+                        font-family: cursive;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

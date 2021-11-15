@@ -1,0 +1,82 @@
+ //Media Responsive
+ @media (max-width :767px) {
+     .nav-container {
+         position: relative;
+         top: -10vh;
+         right: 0;
+         height: 100vh;
+         position: fixed;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         z-index: -1;
+         transition-duration: 0.1s;
+         opacity: 0;
+         .nav {
+             .nav-items {
+                 margin: 33px 0px;
+                 span {
+                     padding: 15px 0px;
+                 }
+             }
+         }
+     }
+     .intro .intro-blend img {
+         height: 80px !important;
+     }
+     .item {
+         transform: scale(0.96) !important;
+         height: 26rem !important;
+     }
+     .full {
+         position: relative;
+         top: -10vh;
+         right: 0;
+         height: 110vh;
+         position: fixed;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         z-index: 1;
+         transition-duration: 0.1s;
+         opacity: 1;
+     }
+     .nav-icon {
+         z-index: 100;
+         position: fixed;
+         .Navicon {
+             .container {
+                 max-width: 110px !important;
+             }
+         }
+     }
+     .slider-container {
+         position: absolute;
+         top: 0;
+         height: 100vh;
+         margin-bottom: 100vh;
+     }
+     .footer-container {
+         height: 34rem;
+         .moreItem {
+             height: 11rem;
+             margin-top: 3rem;
+         }
+         .addres {
+             top: -4rem;
+             text-align: center;
+         }
+     }
+ }
+ 
+ @media (min-width: 992px) {
+     .container {
+         max-width: 1100px;
+     }
+ }
+ 
+ @media(max-width :350) {
+     .container .item {
+         transform: scale(0.90);
+     }
+ }

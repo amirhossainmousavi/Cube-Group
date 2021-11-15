@@ -1,0 +1,21 @@
+section {
+    .main-container {
+        .container {
+            .text {
+                p:nth-child(1) {
+                    font-size: 60px;
+                    font-family: revert;
+                    font-weight: bold;
+                    color: white;
+                }
+                p:nth-child(2) {
+                    font-size: 25px;
+                    font-family: revert;
+                    color: white;
+                    font-weight: 600;
+                    animation: pulsate-fwd 3s ease-in-out infinite both;
+                }
+            }
+        }
+    }
+}

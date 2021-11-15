@@ -1,0 +1,36 @@
+        #infoMenu {
+            height: 10vh;
+            color: #f2f2f2;
+            position: fixed;
+            z-index: 70;
+            bottom: 0px;
+            width: 100%;
+            text-align: right;
+            font-size: 0.9em;
+            padding: 8px 0 8px 0;
+        }
+        
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 94% !important;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+        
+        @media (min-width: 576px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+        
+        #header {
+            position: fixed !important;
+            z-index: 30;
+            top: 2rem;
+            right: 3rem;
+        }

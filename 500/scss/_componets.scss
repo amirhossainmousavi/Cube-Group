@@ -1,0 +1,17 @@
+section {
+    .main-section {
+        .main {
+            P:nth-child(1) {
+                font-size: 100px;
+                font-family: cursive;
+                font-weight: bold;
+                animation: pulsate-fwd 1s ease-in-out infinite both;
+            }
+            P:nth-child(2) {
+                font-size: 30px;
+                font-family: cursive;
+                font-weight: 500;
+            }
+        }
+    }
+}

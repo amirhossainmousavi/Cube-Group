@@ -1,0 +1,6 @@
+﻿alertify.set('notifier', 'delay', 5);
+alertify.set('notifier', 'position', 'bottom-left');
+alertify.set('confirm', 'transition', 'fade');
+alertify.set('confirm', 'labels', { ok: 'بلی', cancel: 'خیر' });
+$(".ajs-ok").addClass("btn").addClass("btn-green");
+$(".ajs-cancel").addClass("btn").addClass("btn-prev");
